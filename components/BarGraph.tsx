@@ -157,10 +157,10 @@ const BarGraph = () => {
     //Multiplying 1.2 here to make sure the bar with max value doesn't get cut off from the top
     const maxValue = Math.max(...barData.map((item) => item.value)) * 1.2;
 
-    // Calculate width based on number of digits
+    // Calculating width based on number of digits
     const digitCount = Math.floor(Math.log10(maxValue)) + 1;
 
-    // Base width + additional width for each digit
+    //Calculating new y-axis width by doing the following: Base width + additional width for each digit
     const baseWidth = wp("5%");
     const additionalWidth = (digitCount - 1) * wp("1.25%");
     return Math.max(wp("5%"), baseWidth + additionalWidth);
