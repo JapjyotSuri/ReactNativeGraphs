@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "practicePocs",
-    "slug": "practicePocs",
+    "name": "GraphsRN",
+    "slug": "GraphsRN",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "practicepocs",
+    "scheme": "GraphsRN",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.japjyot.practicePocs"
+      "bundleIdentifier": "com.japjyot.GraphsRN"
     },
     "android": {
       "adaptiveIcon": {
@@ -24,7 +24,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.japjyot.practicePocs"
+      "package": "com.japjyot.GraphsRN"
     },
     "web": {
       "bundler": "metro",
